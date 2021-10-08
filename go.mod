@@ -1,4 +1,4 @@
-module tour
+module github.com/xielizyh/goprj-tour
 
 go 1.15
 

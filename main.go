@@ -2,7 +2,8 @@ package main
 
 import (
 	"log"
-	cmd "tour/cmd"
+
+	cmd "github.com/xielizyh/goprj-tour/cmd"
 )
 
 func main() {

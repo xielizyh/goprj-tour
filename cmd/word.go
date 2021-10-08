@@ -4,7 +4,7 @@ import (
 	"log"
 	"strings"
 
-	word "tour/internal/word"
+	word "github.com/xielizyh/goprj-tour/internal/word"
 
 	cobra "github.com/spf13/cobra"
 )
