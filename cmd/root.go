@@ -11,6 +11,8 @@ func Execute() error {
 }
 
 func init() {
-	// 添加单词命令
+	// 注册单词命令
 	rootCmd.AddCommand(wordCmd)
+	// 注册时间命令
+	rootCmd.AddCommand(timeCmd)
 }

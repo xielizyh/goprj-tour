@@ -55,7 +55,9 @@ var wordCmd = &cobra.Command{
 	},
 }
 
+// init 每个包可以有多个 init 函数，执行顺序是按照文件名执行
 func init() {
+	// 对命令行参数str,mode的解析和绑定
 	wordCmd.Flags().StringVarP(&str, "str", "s", "", "请输入单词内容")
 	wordCmd.Flags().Int8VarP(&mode, "mode", "m", 0, "请输入单词转换的格式")
 }
