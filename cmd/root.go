@@ -15,4 +15,6 @@ func init() {
 	rootCmd.AddCommand(wordCmd)
 	// 注册时间命令
 	rootCmd.AddCommand(timeCmd)
+	// 注册SQL命令
+	rootCmd.AddCommand(sqlCmd)
 }
